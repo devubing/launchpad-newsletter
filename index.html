@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <style>
+        .container {
+            max-width: 600px; /* Adjust the width as needed */
+            margin: 0 auto;
+            padding: 20px;
+            background-color: black; /* Setting background color to black */
+            color: white; /* Setting text color to white */
+        }
+        .block {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #1c1c1c; /* Setting background color within the block */
+            border: 2px solid orange; /* Adding an orange border */
+        }
+        .block img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: orange;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #ff9900; /* Adjust color on hover */
+        }
+        
+        .event {
+            position: absolute;
+            top: 50%;
+            left: -20px;
+            width: 20px;
+            height: 20px;
+            background-color: orange;
+            border-radius: 50%;
+            transform: translateY(-50%);
+        }
+        .event-text {
+            position: relative;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <img src="logo.png" alt="Image">
+        </div>
+        <div class="block">
+            <h2>Introduction</h2>
+            <p>Welcome to IEEE Launchpad's Newsletter! IEEE Launchpad is a platform dedicated to fostering innovation and collaboration among technology enthusiasts. Whether you're a student, researcher, or industry professional, IEEE Launchpad provides opportunities to explore cutting-edge technologies, participate in hands-on projects, and connect with like-minded individuals.</p>
+        </div>
+        <div class="block">
+            <h2>Call to Action</h2>
+            <p>Join Launchpad Kerala 2024 for an exceptional career kickstart! This premier job fair, organized by IEEE Kerala Section and GTech MuLearn, connects engineering students and graduates with top companies. Gain access to internships, co-op placements, and future job opportunities. Learn about industry trends and technologies from experts, explore diverse career paths, and develop key skills like resilience and adaptability. Don't miss this chance to shape your future!</p>
+            <p><a href="#" class="button">Join Now</a></p>
+        </div>
+        <div class="block">
+            <h2>Latest Updates</h2>
+            <p>Click <a href="https://launchpadkerala.org/" class="button">here</a> to view the latest updates of IEEE Launchpad 2024.</p>
+        </div>
+        <div class="block">
+            <h2>Event Roadmap</h2>
+            <div class="event-roadmap">
+                
+                <div class="event-text">Step 1: Online Registration in Launchpad Website</div>
+                <div class="event-text">Step 2: Confirmation</div>
+                <div class="event-text">Step 3:Join the community</div>
+                <div class="event-text">Step 4:Technical Challenge</div>  
+                <div class="event-text">Step 5: Online Aptitude Test</div>
+                <div class="event-text">Step 6:Await the Finalized Results</div>
+                <div class="event-text">Step 7:Final Interview</div>
+               
+                <!-- Add more event-text divs for each event description -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
